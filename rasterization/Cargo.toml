@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "rasterization"
+version = "0.1.0"
+
+[dependencies]
+
+[build-dependencies]
+spirv-builder = {git = "https://github.com/EmbarkStudios/rust-gpu"}
